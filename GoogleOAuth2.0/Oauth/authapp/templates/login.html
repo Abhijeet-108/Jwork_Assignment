@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title>Login with Google</title></head>
+<body>
+    <h1>Login with Google</h1>
+    <a href="{% url 'authorize' %}">Sign in with Google</a>
+
+    {% if access_token %}
+        <h3>Access Token:</h3>
+        <p>{{ access_token }}</p>
+
+        <h3>Refresh Token:</h3>
+        <p>{{ refresh_token }}</p>
+    {% endif %}
+</body>
+</html>
