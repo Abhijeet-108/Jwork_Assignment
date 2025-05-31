@@ -40,7 +40,7 @@ This project is a simple **Data Entry and Retrieval API** built with **Django** 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/data-entry-api.git
+   git clone https://github.com/Abhijeet-108/Jwork_Assignment.git
    cd data-entry-api
 
 2. **Create a virtual environment**
